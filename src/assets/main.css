@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(23, 23, 21, 1);
+}
+.container{
+    color: white;
+}

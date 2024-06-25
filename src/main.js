@@ -1,0 +1,13 @@
+import './assets/main.css'
+import gsap from 'gsap';
+
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+
+
+const app = createApp(App)
+app.config.globalProperties.$gsap = gsap; 
+app.use(router)
+
+app.mount('#app')
